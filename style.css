@@ -1,0 +1,22 @@
+body {
+  width: 95%;
+  justify-content: center;
+}
+.field-section {
+  width: 98%;
+  height: 350px;
+  justify-content: center;
+  margin: 0 auto;
+  border: 3px solid green;
+  background-color: bisque;
+}
+
+.field-section img {
+  height: 250px;
+}
+
+.field-section:hover img {
+  transform: rotate(-60deg);
+  transform-origin: top right;
+  transition: transform 1s ease-in;
+}
