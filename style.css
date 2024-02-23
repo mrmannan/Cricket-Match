@@ -4,19 +4,32 @@ body {
 }
 .field-section {
   width: 98%;
-  height: 350px;
+  height: 400px;
   justify-content: center;
   margin: 0 auto;
   border: 3px solid green;
   background-color: bisque;
 }
 
-.field-section img {
-  height: 250px;
+.field-section .bat {
+  height: 300px;
 }
 
-.field-section:hover img {
+.field-section:hover .bat {
   transform: rotate(-60deg);
   transform-origin: top right;
   transition: transform 1s ease-in;
 }
+
+.field-section .ball{
+    width: 50px;
+    margin-left: 200px;
+               position: relative;
+            left: 140px;
+}
+
+.field-section:hover .ball {
+    transform: translate(600px, -200px);
+    transition-duration: 10s;
+    transition-delay: 0.8s;
+  }
