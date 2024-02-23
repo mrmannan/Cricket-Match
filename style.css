@@ -18,7 +18,7 @@ body {
 .field-section:hover .bat {
   transform: rotate(-60deg);
   transform-origin: top right;
-  transition: transform 1s ease-in;
+  transition: transform 1.15s ease-in;
 }
 
 .field-section .ball{
@@ -29,7 +29,7 @@ body {
 }
 
 .field-section:hover .ball {
-    transform: translate(600px, -200px) rotate(360deg);
-    transition-duration: 10s;
-    transition-delay: 0.8s;
+    transform: translate(800px, -200px) rotate(2360deg);
+    transition-duration: 5s;
+    transition-delay: 0.9s;
   }
